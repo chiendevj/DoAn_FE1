@@ -1,0 +1,236 @@
+/* Styles for small screens */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    
+  .tp-hero-title {
+      font-size: 30px;
+      padding: 0 20px;
+  }
+
+  .tp-hero-img img {
+    position: absolute;
+    top: 85%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    max-width: 15%;
+    max-height: 25%;
+  }
+    
+  .tp-section-title-inner span{
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 0.75;
+    background-image: linear-gradient(180deg, #0989FF 0%, rgba(9, 137, 255, 0) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.8;
+  }
+
+  .tp-features-item{
+    padding: 30px 20px 30px;
+    margin-bottom: 20px;
+  }
+
+  .order-last .tp-features-item{
+    font-size: 14px;
+    height: 680px;
+  }
+
+  h3.tp-features-title{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.12;
+    margin-bottom: 15px;
+  }
+
+  h3.tp-features-title-2{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.12;
+    margin-bottom: 15px;
+  }
+
+  .tp-features-content p{
+    font-size: 20px;
+  }
+
+  h2.beauty-des-title {
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #moving-image {
+    position: absolute;
+    top: 0;
+    animation: move-right 60s linear infinite;
+    max-width: 1000%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .tp-features-content{
+    font-size: 70%;
+  }
+/* Slide show */
+
+.wraper p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background: none !important;
+}
+
+.owl-prev{
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px !important;
+  color: #fff !important; 
+}
+
+.owl-next{
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px !important;
+  color: #fff !important;
+}
+/* FOOTER */
+.tp-footer-content{
+  padding-top: 50px;
+}
+
+.tp-footer-content span{
+  color: #0989FF;
+  margin-bottom: 20px;
+}
+
+.tp-footer-content h3{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tp-footer-content p{
+  font-size: 14px;
+  font-weight: 300;
+  color: #07080A;
+  margin-bottom: 20px;
+}
+
+.tp-footer-btn {
+
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #82B440;
+  padding: 8px 23px;
+  text-align: center;
+}
+
+.tp-footer-btn a{
+  color: #fff;
+}
+
+.tp-footer-btn:hover{
+  background: #010F1C;
+}
+
+.tp-footer-copyright{
+  padding: 40px 0;
+}
+.tp-footer-copyright p a{
+  color: #5F6168;
+  font-weight: 500;
+}
+
+
+}
+
+/* Styles for medium screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tp-hero-img img {
+  position: absolute;
+  top: 770px;
+  left: 950px;
+  transform: translate(-50%, -50%);
+  width: 236px;
+  height: 427px;
+  }  
+  .d-lg-flex {
+    display: flex!important;
+  }
+  h2.beauty-des-title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #moving-image {
+    position: absolute;
+    top: 0;
+    animation: move-right 60s linear infinite;
+    max-width: 1000%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  h3.tp-features-title{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.12;
+    margin-bottom: 15px;
+  }
+  h3.tp-features-title-2{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.12;
+    margin-bottom: 15px;
+  }
+  .tp-features-content p{
+    font-size: 20px;
+  }
+
+  /* Slide show */
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background: none !important;
+}
+
+.owl-prev{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px !important;
+  color: #fff !important; 
+}
+
+.owl-next{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px !important;
+  color: #fff !important;
+}
+
+}
+
+/* Styles for large screens */
+@media screen and (min-width: 1024px) {
+  .tp-plugin-shape-1 {
+    right: 3%;
+}
+
+  
+}
